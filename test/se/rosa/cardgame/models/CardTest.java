@@ -10,14 +10,6 @@ import se.rosa.cardgame.models.Card.Suit;
 
 public class CardTest {
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-	}
-
-	@Before
-	public void setUp() throws Exception {
-	}
-
 	@Test
 	public void cardEquals() {
 		Card card = new Card(1, Suit.Heart);
