@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import se.rosa.cardgame.models.Card;
 import se.rosa.cardgame.models.Card.Suit;
-import se.rosa.cardgame.models.Deck;
+import se.rosa.cardgame.repository.Deck;
 
 public class ActionsTest {
 	private Actions actions;
@@ -27,9 +27,8 @@ public class ActionsTest {
 
 	@Test
 	public void GeneratesDeck() {
-
 		assertNotNull(deck);
-		assertSame(52, deck.getCards().size());
+		assertEquals(52, deck.getCards().size());
 	}
 
 	@Test

@@ -1,7 +1,8 @@
 package se.rosa.cardgame.actions;
 
 import se.rosa.cardgame.models.Card;
-import se.rosa.cardgame.models.Deck;
+import se.rosa.cardgame.repository.Deck;
+
 
 public class Actions {
 

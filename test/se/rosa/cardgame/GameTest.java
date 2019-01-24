@@ -8,9 +8,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import se.rosa.cardgame.models.Deck;
 import se.rosa.cardgame.models.Card;
 import se.rosa.cardgame.models.Card.Suit;
+import se.rosa.cardgame.repository.Deck;
 
 public class GameTest {
 

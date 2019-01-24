@@ -1,9 +1,11 @@
-package se.rosa.cardgame.models;
+package se.rosa.cardgame.repository;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+import se.rosa.cardgame.models.Card;
 
 public class Deck implements Comparator<Card> {
 	private List<Card> cards;

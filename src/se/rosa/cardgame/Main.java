@@ -3,7 +3,7 @@ package se.rosa.cardgame;
 import java.io.IOException;
 
 import se.rosa.cardgame.actions.Actions;
-import se.rosa.cardgame.models.Deck;
+import se.rosa.cardgame.repository.Deck;
 
 public class Main {
 
@@ -12,8 +12,8 @@ public class Main {
 		Deck fromDeck = action.generateNewDeck();
 		Deck toDeck = new Deck();
 		Game game = new Game();
+		game.printOutSorted(fromDeck);
 		game.play(fromDeck, toDeck);
-		game.printOutSorted(toDeck);
 	}
 
 }
